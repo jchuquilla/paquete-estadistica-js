@@ -22,7 +22,7 @@ jobs:
       - name: Configurar .npmrc
         uses: actions/setup-node@v4 #Permite crear el archivo npmrc para poder publicar en github packages
         with:
-          node-version: '22.x'
+          node-version: '20.x'
           registry-url: 'https://npm.pkg.github.com'
           # Usuario u organización propietaria del workflow
           scope: '@jchuquilla'
